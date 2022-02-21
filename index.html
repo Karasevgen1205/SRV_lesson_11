@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"/>
+  </head>
+<body>
+  <header class="header">
+    <!-- Единстенный модификатор на данный момент это header_white -->
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__left">
+          <div class="header__logo">
+              <img src="./LOGO.png" alt="logo" class="img__logo">
+              <!-- Убрать class="img__logo"-->
+          </div>
+        </div>
+        <div class="header__right">
+          <ul class="header__list">
+            <li class="header__items">
+              <a href="#" class="header__link">ГЛАВНАЯ</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">МЕНЮ</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">О НАС</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">БРОНЬ</a>
+            </li>
+          </ul>
+          <div class="header__contact">              
+            <div class="header__cart_icon">
+              <!-- я бы назвал header__cart -->
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="header__vl"></div>
+            <div class="header__info">
+              <div class="header__info_phone">
+                <!-- я бы назвал header__phone-icon -->
+
+                <i class="fas fa-phone"></i>
+                <span class="header__info_phone_number">+999-888-76-54</span>
+              </div>
+              <span class="header__info_info">
+                Свяжитесь с нами для бронирования
+              </span>
+            </div>
+          </div>
+          <button type="button" class="header__info_btn open-modal-btn">ЗАКАЗ СТОЛИКА</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- BANNER  -->
+      <section class="banner">
+        <div class="container">
+          <div class="banner__headline_welcome">
+            <h1>Добро пожаловать в</h1>
+          </div>
+          <div class="banner__headline_rest">
+            <h1>Наш ресторан</h1>
+          </div>
+          <div class="banner_house">
+            <h2 class="banner__headline_house">ДОМ ЛУЧШЕЙ ЕДЫ</h2>
+          </div>
+          <button type="button" class="banner__btn_menu"> МЕНЮ </button>
+        </div>
+      </section>
+        <!-- FOOD -->
+       <section class="food">
+         <div class="container">
+           <div class="food__wrapper">
+             <div class="food__card">
+                <div class="food__img">
+                  <img src="./tray.png" alt="tray">                
+                </div>
+                <h3 class="food__title">Магическая <span class="yellow__drop">Атмосфера</span> </h3>
+                <p class="food__text">
+                  В нашем заведении царит магическая атмосфера
+                  наполненная вкусными ароматами
+                </p>
+             </div>
+             <div class="food__card">
+              <div class="food__img">
+                <img src="./tray.png" alt="tray">
+              </div>
+                <h3 class="food__title">Лучшее качество  <span class="yellow__drop">Еды</span> </h3>
+                <p class="food__text">
+                  Качество нашей <br>
+                  Еды - отменное!                
+                </p>
+             </div>
+             <div class="food__card">
+               <div class="food__img">
+                <img src="./tray.png" alt="tray">
+             </div>
+              <h3 class="food__title">Недорогая  <span class="yellow__drop">Еда</span> </h3>
+             <p class="food__text">
+                Стоимость нашей Еды
+                зависит только от ее
+                количества. Качество
+                всегда на высоте!
+             </p>
+             </div>
+           </div>
+          </div>
+        </section>
+        <!-- HISTORY -->
+          <section class="history">
+            <div class="container">
+              <div class="history__wrapper">
+                <div class="history__left">
+                  <h3 class="history_headline">
+                    Наша <span class="yellow__drop">История</span> 
+                  </h3>
+                  <p class="history_text">Как и у любого другого самобытного места, у нас есть своя, особая история.
+                    Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял
+                    в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать
+                    себе нехитрый быт, добывать и готовить себе еду.
+                  </p>
+                  <div class="history_statistics">
+                    <div class="history__card">
+                      <!-- span -->
+                      <span class="history__number">93</span>
+                      <span class="history__name">Напитки</span>
+                    </div>
+                    <div class="history__card">
+                      <div class="history__number">206</div>
+                      <div class="history__name">Еда</div>
+                    </div>
+                    <div class="history__card">
+                      <div class="history__number">71</div>
+                      <div class="history__name">Закуски</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="history__right">
+                  <div class="history__img_species">
+                    <!-- gjlhfdyznm rkfccs -->
+                    <img src="./species.png" alt="species"></img>
+                  </div>
+                  <div class="history__img_cake">
+                    <img src="./cake.png" alt="cake" >
+                  </div>
+                  <div class="history__img_restraunt">
+                    <img src="./restraunt.png" alt="restraunt" >
+                  </div>
+                  <div class="history__img_box">
+                    <img src="./box.png" alt="box" >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-- CELEBRATE -->
+          <section class="celebrate">
+            <div class="container">
+              <div class="celebrate__wrapper">
+                <div class="celebrate__left">
+                  <h3>Отпразднуйте в одном из самых лучших ресторанов.
+                  </h3>
+                  <p>Только в этом месяце бизнес-ланч от 250 ₽</p>
+                </div>
+                <div class="celebrate__right">
+                  <button type="button" class="order__btn open-modal-btn">ЗАКАЗ СТОЛИКА</button>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-- MEALS -->
+          <section class="meals">
+            <div class="container">
+              <h3>Наши <span class="yellow__drop">Блюда</span></h3>
+              <div class="meals__wrapper">
+                <div class="meals__left">
+                  <div class="meals__img-big meals__img-big_active">
+                    <img src="./hamburger.png" alt="hamburger">
+                  </div>
+                  <div class="meals__img-big">
+                    <img src="./rolls.jpg" alt="hamburger">
+                  </div>
+                  <div class="meals__img-big">
+                    <img src="./hinkali.jpg" alt="hamburger">
+                  </div>
+                </div>
+                <div class="meals__right">
+                  <div class="meals__card">
+                    <div class="meals__img-small">
+                      <img src="./hamburger.png" alt="hamburger">
+                    </div>
+                    <p>Гамбургер мини</p>
+                  </div>
+                  <div class="meals__card">
+                    <div class="meals__img-small">
+                      <img src="./rolls.jpg" alt="hamburger">
+                    </div>
+                    <p>Роллы мини</p>
+                  </div>
+                  <div class="meals__card">
+                    <div class="meals__img-small">
+                      <img src="./hinkali.jpg" alt="hamburger">
+                    </div>
+                    <p>Хинкали мини</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+</main>
+<section class="modal-window">
+  <div class="modal-window__wrapper">
+    <h1>Modal Window</h1>
+    <input type="text" placeholder="Введите Ваше имя">
+    <input type="number" placeholder="Введите Ваш номер телефона">
+    <input type="date" placeholder="Введите дату">
+    <button class="modal-window__close" type="button"></button>
+  </div>
+</section>
+<script src="./index.js"></script>
+</body>
+
+
+
+</html>
