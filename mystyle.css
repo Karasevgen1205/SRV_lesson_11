@@ -541,5 +541,15 @@ h1 {
 }
 
 .meals__img-big_active {
+  animation: fadeEffect 1.5s;
   display: block;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
